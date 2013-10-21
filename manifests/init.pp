@@ -5,4 +5,5 @@ class bobs_config {
 
   file {'/etc/vimrc/vimrc.local':
     content => template('bobs_config/vimrc.local.erb'),
+  }
 }
